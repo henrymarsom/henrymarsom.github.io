@@ -109,7 +109,7 @@ html, body {
 .hero {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;  /* align text and image to top */
+  align-items: center;  /* align text and image to top */
   justify-content: center;
   gap: 30px;               /* smaller gap between text and image */
   margin-bottom: 20px;      /* minimal space below hero section */

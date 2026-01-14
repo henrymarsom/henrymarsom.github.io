@@ -6,12 +6,17 @@ permalink: /resume/
 
 <div class="resume-container">
 
-  <section class="resume-image">
-    <img src="{{ site.baseurl }}/assets/Resume Fa2025.pdf" alt="Resume of Henry Marsom">
-  </section>
+  <!-- Top right download icon -->
+  <div class="resume-download-top">
+    <a href="{{ site.baseurl }}/assets/Resume Fa2025.pdf" target="_blank" aria-label="Download Resume">
+      <i class="fa-solid fa-download"></i>
+    </a>
+  </div>
 
-  <section class="resume-section">
-    <a class="resume-download" href="/assets/Resume Fa2025.pdf" target="_blank">📄 Download Resume</a>
+  <h1>Resume</h1>
+
+  <section class="resume-image">
+    <img src="{{ site.baseurl }}/assets/Resume Fa2025.png" alt="Resume of Charles Marsom">
   </section>
 
 </div>

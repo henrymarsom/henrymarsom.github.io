@@ -169,7 +169,7 @@ html, body {
 /* Contact icons */
 /* Contact icons - light mode */
 body.light .contact a {
-  font-size: 4.1rem;
+  font-size: 3.5rem;
   color: #000000;  /* black icons in light mode */
   transition: transform 0.2s ease, color 0.2s ease;
 }
@@ -181,7 +181,7 @@ body.light .contact a:hover {
 
 /* Contact icons - dark mode */
 body.dark .contact a {
-  font-size: 4.1rem;
+  font-size: 3.5rem;
   color: #eaeaea;  /* default light gray in dark mode */
   transition: transform 0.2s ease, color 0.2s ease;
 }

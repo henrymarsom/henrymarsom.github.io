@@ -337,30 +337,26 @@ body.dark .site-footer {
   }
 }
 
-
-
-
-
-
-
+/* ====== Resume Page ====== */
 .resume-container {
-  max-width: 900px;
-  margin: 40px auto 60px auto;
-  padding: 0 20px;
+  display: flex;
+  justify-content: center; /* center inner container */
+  padding: 20px;
 }
 
 .resume-inner {
-  width: 100%;
-  max-width: 700px; /* match the width of your image */
-  margin: 0 auto;   /* center inner container */
+  display: flex;
+  flex-direction: column;
+  width: fit-content;      /* shrink container to match image width */
 }
 
 /* Header with title and download icon */
 .resume-header {
   display: flex;
-  justify-content: space-between; /* left and right aligned */
+  justify-content: space-between; /* title left, icon right */
   align-items: center;
   margin-bottom: 15px;
+  width: 100%;                  /* matches image width */
 }
 
 /* Resume title */
@@ -369,7 +365,25 @@ body.dark .site-footer {
   margin: 0;
 }
 
-/* Download icon */
+/* Download icon: default and hover */
+.resume-download-top {
+  position: relative;
+  display: inline-block;
+}
+
+.resume-download-top .hover-icon {
+  display: none;
+}
+
+.resume-download-top a:hover .default-icon {
+  display: none;
+}
+
+.resume-download-top a:hover .hover-icon {
+  display: inline-block;
+}
+
+/* Icon styling */
 .resume-download-top i {
   font-size: 2rem;
   color: #0077cc;
@@ -383,22 +397,24 @@ body.dark .site-footer {
 
 /* Resume image */
 .resume-image {
-  text-align: center;
+  width: 100%;
 }
 
-.resume-image img {
-  display: inline-block;
-  max-width: 100%;
+.resume-img {
+  display: block;
+  width: 100%;
   height: auto;
   border: 1px solid #ddd;
   border-radius: 5px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
 }
 
-/* Responsive adjustments */
+/* ====== Responsive ====== */
 @media (max-width: 768px) {
   .resume-inner {
-    max-width: 100%;
+    width: 90%;             /* shrink for mobile */
+    align-items: center;    /* center header and image */
   }
 
   .resume-header {
@@ -414,5 +430,9 @@ body.dark .site-footer {
 
   .resume-download-top i {
     font-size: 1.8rem;
+  }
+
+  .resume-img {
+    max-width: 100%;
   }
 }

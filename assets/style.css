@@ -338,6 +338,7 @@ body.dark .site-footer {
 }
 /* ====== Resume Image ====== */
 /* ====== Resume Page ====== */
+<!--
 .resume-container {
   max-width: 900px;
   margin: 40px auto 60px auto;
@@ -403,7 +404,7 @@ body.dark .site-footer {
     font-size: 1.8rem;
   }
 }
-
+-->
 
 
 .resume-download-top a {

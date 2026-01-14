@@ -299,16 +299,31 @@ body.dark .site-footer {
     justify-content: center !important;
   }
 
+    /* Stack nav items vertically if needed, but keep toggle separate */
   .nav {
-    flex-wrap: wrap !important;
-    justify-content: center !important;
+    display: flex;
+    justify-content: space-between; /* left + right ends */
+    align-items: center;
+    flex-wrap: wrap;               /* allow links to wrap */
+    padding: 10px 20px;
   }
 
+  /* Center the nav links horizontally */
   .nav-center {
-    gap: 25px !important;
-    margin-top: 10px !important;
+    order: 2;                     /* move below site name if needed */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 10px 0;               /* spacing above/below links */
   }
 
+  /* Keep the theme toggle on the right */
+  .nav-right {
+    order: 1;                     /* stays at top right */
+    margin-left: auto;
+  }
+}
   .hero-text h1 {
     font-size: 2.5rem !important;
   }

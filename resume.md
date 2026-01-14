@@ -9,11 +9,6 @@ permalink: /resume/
   <!-- Inner container: centers everything -->
   <div class="resume-inner">
 
-    <!-- Resume Image -->
-    <section class="resume-image">
-      <img src="{{ site.baseurl }}/assets/Resume Fa2025.pdf" alt="Resume of Charles Marsom" class="resume-img">
-    </section>
-
     <!-- Header aligned to image width -->
     <div class="resume-header">
       <h1 class="resume-title">Resume</h1>
@@ -22,7 +17,10 @@ permalink: /resume/
         <i class="fa-solid fa-circle-arrow-down hover-icon"></i>
       </a>
     </div>
-
+<!-- Resume Image -->
+    <section class="resume-image">
+      <img src="{{ site.baseurl }}/assets/Resume Fa2025.pdf" alt="Resume of Charles Marsom" class="resume-img">
+    </section>
   </div>
 
 </div>

@@ -166,13 +166,21 @@ html, body {
   justify-content: center;
 }
 
+/* Contact icons */
 .contact a {
-  font-size: 2.3rem;       /* larger icons */
-  transition: color 0.2s ease, transform 0.2s ease;
+  font-size: 2.3rem;             /* icon size */
+  color: inherit;                /* inherit current text color */
+  transition: transform 0.2s ease, color 0.2s ease; /* animate both size and color */
 }
 
 .contact a:hover {
-  transform: scale(1.15);
+  transform: scale(1.15);        /* slightly enlarge on hover */
+  color: #0066cc;                /* light mode hover color */
+}
+
+/* Dark mode hover */
+body.dark .contact a:hover {
+  color: #4da3ff;               /* dark mode hover color */
 }
 
 /* =========================

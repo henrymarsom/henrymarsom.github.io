@@ -343,32 +343,32 @@ body.dark .site-footer {
   margin: 40px auto 60px auto;
   padding: 0 20px;
   line-height: 1.5;
-  position: relative; /* needed for absolute download icon */
 }
 
-/* Top-right download icon */
-.resume-download-top {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.resume-download-top a {
-  font-size: 1.8rem;
-  color: #0077cc;
-  transition: color 0.2s ease, transform 0.2s ease;
-}
-
-.resume-download-top a:hover {
-  color: #005fa3;
-  transform: scale(1.2);
+/* Header with title and download icon */
+.resume-header {
+  display: flex;
+  justify-content: space-between; /* left title, right icon */
+  align-items: center;            /* vertical align */
+  margin-bottom: 15px;            /* space between header and image */
 }
 
 /* Resume title */
 .resume-title {
-  text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 20px;
+  margin: 0;
+}
+
+/* Download icon */
+.resume-download-top i {
+  font-size: 2rem;
+  color: #0077cc;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.resume-download-top i:hover {
+  color: #005fa3;
+  transform: scale(1.25);
 }
 
 /* Resume image */
@@ -387,15 +387,19 @@ body.dark .site-footer {
 
 /* ====== Responsive ====== */
 @media (max-width: 768px) {
-  .resume-container {
-    margin: 30px 15px 40px 15px;
-  }
-
-  .resume-download-top a {
-    font-size: 1.5rem;
+  .resume-header {
+    flex-direction: column;   /* stack title and icon */
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
   }
 
   .resume-title {
     font-size: 2rem;
+    text-align: center;
+  }
+
+  .resume-download-top i {
+    font-size: 1.8rem;
   }
 }

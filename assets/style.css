@@ -401,7 +401,7 @@ body.dark .site-footer {
 }
 
 .resume-download-top i {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #0077cc;
   transition: color 0.2s ease, transform 0.2s ease;
 }
@@ -432,4 +432,17 @@ body.dark .site-footer {
   .resume-download-top i {
     font-size: 1.8rem;
   }
+}
+/* Dark mode resume image fix */
+body.dark-mode .resume-img {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+
+  border: none;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.6);
+}
+.resume-img {
+  background-color: #fafafa;
+  padding: 8px;
 }

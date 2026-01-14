@@ -170,7 +170,7 @@ html, body {
 /* Contact icons - light mode */
 body.light .contact a {
   font-size: 2.3rem;
-  color: #ffffff;  /* white icons in light mode */
+  color: #000000;  /* black icons in light mode */
   transition: transform 0.2s ease, color 0.2s ease;
 }
 

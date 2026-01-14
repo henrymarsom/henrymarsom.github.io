@@ -26,9 +26,9 @@ permalink: /
   </section>
 
   <section class="contact">
-    <a href="mailto:youremail@example.com">Email</a>
-    <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>
-    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    <a href="mailto:charleshenrymarsom@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/henry-marsom-238a72380/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/henrymarsom" target="_blank">GitHub</a>
   </section>
 
 </div>

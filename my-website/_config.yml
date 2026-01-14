@@ -1,1 +1,6 @@
-
+title: Charles Marsom
+email: youremail@example.com
+description: >- 
+  Personal website for projects, resume, and about me.
+baseurl: "" # leave empty for GitHub Pages
+url: "https://charlesmarsom.github.io"

@@ -336,3 +336,25 @@ body.dark .site-footer {
     font-size: 1rem !important;
   }
 }
+/* ====== Resume Image ====== */
+.resume-image img {
+  width: 100%;          /* scale to container width */
+  max-width: 900px;     /* don’t go too wide on large screens */
+  height: auto;         /* maintain aspect ratio */
+  display: block;
+  margin: 0 auto 20px auto; /* center the image and add bottom spacing */
+  border: 1px solid #ddd;   /* optional light border */
+  border-radius: 5px;        /* optional rounded corners */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+/* Responsive spacing for mobile */
+@media (max-width: 768px) {
+  .resume-container {
+    margin: 30px 15px 40px 15px;
+  }
+
+  .resume-image img {
+    max-width: 100%;
+  }
+}

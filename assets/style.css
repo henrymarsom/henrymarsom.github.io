@@ -96,7 +96,7 @@ html, body {
 ========================= */
 .home-container {
   padding: 10px 20px;       /* minimal top/bottom padding */
-  max-width: 1200px;
+  max-width: 2100px;
   margin: auto;
   display: flex;
   flex-direction: column;

@@ -13,7 +13,8 @@ permalink: /resume/
     </a>
   </div>
 
-  <h1>Resume</h1>
+ <!-- Resume Title -->
+  <h1 class="resume-title">Resume</h1>
 
   <section class="resume-image">
     <img src="{{ site.baseurl }}/assets/Resume Fa2025.pdf" alt="Resume of Charles Marsom">

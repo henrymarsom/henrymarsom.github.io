@@ -41,7 +41,7 @@ permalink: /resume/
   </section>
 
   <section class="resume-section">
-    <a class="resume-download" href="/assets/Resume_CharlesMarsom.pdf" target="_blank">📄 Download PDF</a>
+    <a class="resume-download" href="/assets/Resume Fa2025.pdf" target="_blank">📄 Download Resume</a>
   </section>
 
 </div>

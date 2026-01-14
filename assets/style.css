@@ -14,6 +14,7 @@ html, body {
 /* Make main content stretch to push footer to bottom */
 .page-content {
   flex: 1;
+  min-height: calc(100vh - 120px);
 }
 
 /* =========================

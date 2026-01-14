@@ -336,22 +336,31 @@ body.dark .site-footer {
     font-size: 1rem !important;
   }
 }
-/* ====== Resume Image ====== */
-/* ====== Resume Page ====== */
-<!--
+
+
+
+
+
+
+
 .resume-container {
   max-width: 900px;
   margin: 40px auto 60px auto;
   padding: 0 20px;
-  line-height: 1.5;
+}
+
+.resume-inner {
+  width: 100%;
+  max-width: 700px; /* match the width of your image */
+  margin: 0 auto;   /* center inner container */
 }
 
 /* Header with title and download icon */
 .resume-header {
   display: flex;
-  justify-content: space-between; /* left title, right icon */
-  align-items: center;            /* vertical align */
-  margin-bottom: 15px;            /* space between header and image */
+  justify-content: space-between; /* left and right aligned */
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 /* Resume title */
@@ -386,12 +395,15 @@ body.dark .site-footer {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/* ====== Responsive ====== */
+/* Responsive adjustments */
 @media (max-width: 768px) {
+  .resume-inner {
+    max-width: 100%;
+  }
+
   .resume-header {
-    flex-direction: column;   /* stack title and icon */
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 15px;
     gap: 10px;
   }
 
@@ -400,46 +412,6 @@ body.dark .site-footer {
     text-align: center;
   }
 
-  .resume-download-top i {
-    font-size: 1.8rem;
-  }
-}
--->
-
-
-.resume-download-top a {
-  position: relative;
-  display: inline-block;
-}
-
-/* Default icon visible, hover icon hidden */
-.resume-download-top .hover-icon {
-  display: none;
-}
-
-/* Swap icons on hover */
-.resume-download-top a:hover .default-icon {
-  display: none;
-}
-
-.resume-download-top a:hover .hover-icon {
-  display: inline-block;
-}
-
-/* Size and color for both icons */
-.resume-download-top i {
-  font-size: 2rem;
-  color: #0077cc;
-  transition: color 0.2s ease, transform 0.2s ease;
-}
-
-.resume-download-top a:hover i {
-  color: #005fa3;
-  transform: scale(1.25);
-}
-
-/* Mobile adjustments */
-@media (max-width: 768px) {
   .resume-download-top i {
     font-size: 1.8rem;
   }

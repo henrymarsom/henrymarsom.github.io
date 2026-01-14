@@ -14,9 +14,11 @@ permalink: /
       </p>
 
       <p class="bio">
-        Hi! I am a first-year at the University of California at Berkeley majoring in mechanical engineering 
-        with a minor in electrical engineering and computer science (EECS). I enjoy working
-        on technically challenging projects and continuously improving my skills.
+        Hi! 
+        I am a first-year at the **University of California at Berkeley** majoring in **mechanical engineering** 
+        with a minor in **electrical engineering and computer science (EECS)**. I enjoy working
+        on technically challenging projects and continuously improving my skills. Please reach out if you are
+        interested in working together on a project!
       </p>
     </div>
 

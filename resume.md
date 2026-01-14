@@ -9,7 +9,7 @@ permalink: /resume/
   <!-- Top right download icon -->
   <div class="resume-download-top">
     <a href="{{ site.baseurl }}/assets/Resume Fa2025.pdf" target="_blank" aria-label="Download Resume">
-      <i class="fa-solid fa-download"></i>
+      <i class="fa-solid fa-file-arrow-down"></i>
     </a>
   </div>
 

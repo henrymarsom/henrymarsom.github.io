@@ -272,18 +272,52 @@ body.dark .site-footer {
   }
 }
 @media (max-width: 768px) {
+  .hero {
+    flex-direction: column !important;  /* stack vertically */
+    align-items: center !important;     /* center everything */
+    gap: 20px !important;               /* smaller space */
+    margin-bottom: 15px !important;
+  }
+
+  .hero-text {
+    text-align: center !important;      /* center text */
+    max-width: 90% !important;
+  }
+
+  .hero-image {
+    margin-top: 0 !important;
+  }
+
+  .hero-image img {
+    width: 180px !important;
+    height: 180px !important;
+  }
+
+  .contact {
+    gap: 25px !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+
   .nav {
-    padding: 10px 15px;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
   }
-}
-@media (max-width: 768px) {
+
+  .nav-center {
+    gap: 25px !important;
+    margin-top: 10px !important;
+  }
+
   .hero-text h1 {
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
   }
+
   .subtitle {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
+
   .bio {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 }

@@ -15,9 +15,9 @@ permalink: /
 
       <p class="bio">
         Hi! 
-        I am a first-year at the <strong>University of California at Berkeley<strong> majoring in 
-        <strong>mechanical engineering<strong> with a minor in 
-        <strong>electrical engineering and computer science (EECS)<strong>. I enjoy working
+        I am a first-year at the <strong>University of California at Berkeley</strong> majoring in 
+        <strong>mechanical engineering</strong> with a minor in 
+        <strong>electrical engineering and computer science (EECS)</strong>. I enjoy working
         on technically challenging projects and continuously improving my skills. 
         Please reach out if you are  interested in working together on a project!
       </p>

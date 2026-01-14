@@ -393,3 +393,25 @@ body.dark .site-footer {
   background-color: #005fa3;
   transform: scale(1.05);
 }
+/* Top-right download icon on resume page */
+.resume-download-top {
+  position: absolute;
+  top: 20px;       /* distance from top of page */
+  right: 20px;     /* distance from right edge */
+}
+
+.resume-download-top a {
+  font-size: 1.8rem;        /* icon size */
+  color: #0077cc;           /* icon color */
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.resume-download-top a:hover {
+  color: #005fa3;            /* hover color */
+  transform: scale(1.2);     /* subtle enlarge on hover */
+}
+
+/* Make sure the resume container has relative positioning for absolute child */
+.resume-container {
+  position: relative;
+}

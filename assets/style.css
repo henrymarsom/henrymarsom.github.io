@@ -148,8 +148,8 @@ html, body {
 }
 
 .hero-image img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #ddd;
@@ -232,4 +232,58 @@ body.dark #theme-toggle:hover {
 body.dark .site-footer {
   border-top: 1px solid #333;
   color: #aaa;
+}
+
+/* ====== Responsive Mobile Layout ====== */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;     /* stack vertically */
+    align-items: center;        /* center everything */
+    gap: 20px;                  /* less space between text and image */
+    margin-bottom: 15px;
+  }
+
+  .hero-text {
+    text-align: center;         /* center text on small screens */
+    max-width: 90%;             /* narrow so it looks good on phones */
+  }
+
+  .hero-image {
+    margin-top: 0;              /* remove any nudging */
+  }
+
+  .hero-image img {
+    width: 180px;               /* slightly smaller image on phone */
+    height: 180px;
+  }
+
+  .contact {
+    gap: 25px;                  /* smaller gaps between icons */
+  }
+
+  .nav {
+    flex-wrap: wrap;             /* allow nav links to wrap if needed */
+    justify-content: center;
+  }
+
+  .nav-center {
+    gap: 25px;                   /* tighter nav links on mobile */
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .nav {
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  .bio {
+    font-size: 1rem;
+  }
 }

@@ -6,32 +6,42 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <title>{{ page.title }} | {{ site.title }}</title>
 </head>
-<body class="light">
-  <nav>
-    <a href="{{ '/' | relative_url }}">Home</a> |
-    <a href="{{ '/about/' | relative_url }}">About</a> |
-    <a href="{{ '/projects/' | relative_url }}">Projects</a> |
-    <a href="{{ '/resume/' | relative_url }}">Resume</a>
-  </nav>
+<<body class="light">
 
-  <main>
-    {{ content }}
-  </main>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <nav class="nav">
+      <div class="nav-left">
+        <a href="/" class="site-name">Charles Marsom</a>
+      </div>
 
-  <header class="top-bar">
-    <button id="theme-toggle" aria-label="Toggle dark mode">
-      <i class="fa-solid fa-moon"></i>
-    </button>
+      <div class="nav-center">
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/resume/">Resume</a>
+      </div>
+
+      <div class="nav-right">
+        <button id="theme-toggle" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </nav>
   </header>
 
+  <!-- Main Page Content -->
   <main class="page-content">
     {{ content }}
   </main>
 
+  <!-- Footer -->
   <footer class="site-footer">
     <p>© 2026 Charles Marsom. All rights reserved.</p>
   </footer>
 
+  <!-- Theme Script -->
   <script src="/assets/theme.js"></script>
+
 </body>
 </html>

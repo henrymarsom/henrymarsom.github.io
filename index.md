@@ -9,9 +9,6 @@ permalink: /
   <section class="hero">
     <div class="hero-text">
       <h1>Henry Marsom</h1>
-      <p class="subtitle">
-        Mechanical Engineer • Developer • Problem Solver
-      </p>
       <p class="bio">
         Hello!
       </p>

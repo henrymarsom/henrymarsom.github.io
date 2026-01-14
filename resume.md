@@ -16,7 +16,7 @@ permalink: /resume/
   <h1>Resume</h1>
 
   <section class="resume-image">
-    <img src="{{ site.baseurl }}/assets/Resume Fa2025.png" alt="Resume of Charles Marsom">
+    <img src="{{ site.baseurl }}/assets/Resume Fa2025.pdf" alt="Resume of Charles Marsom">
   </section>
 
 </div>

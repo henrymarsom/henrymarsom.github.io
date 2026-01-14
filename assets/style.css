@@ -358,3 +358,38 @@ body.dark .site-footer {
     max-width: 100%;
   }
 }
+.resume-image {
+  text-align: center; /* center content inside container */
+  margin-bottom: 20px; /* space below image */
+}
+
+.resume-image img {
+  display: inline-block; /* treat image as inline-block so text-align works */
+  max-width: 100%;       /* scale image for smaller screens */
+  height: auto;          /* keep aspect ratio */
+  border: 1px solid #ddd; /* optional border */
+  border-radius: 5px;    /* optional rounded corners */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+
+/* Center the download button */
+.resume-download {
+  text-align: center;  /* center the link inside the container */
+  margin-top: 20px;    /* space above button */
+}
+
+.resume-download a {
+  display: inline-block;  /* required for text-align to work */
+  padding: 10px 15px;
+  background-color: #0077cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.resume-download a:hover {
+  background-color: #005fa3;
+  transform: scale(1.05);
+}

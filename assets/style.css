@@ -337,81 +337,65 @@ body.dark .site-footer {
   }
 }
 /* ====== Resume Image ====== */
-.resume-image img {
-  width: 100%;          /* scale to container width */
-  max-width: 900px;     /* don’t go too wide on large screens */
-  height: auto;         /* maintain aspect ratio */
-  display: block;
-  margin: 0 auto 20px auto; /* center the image and add bottom spacing */
-  border: 1px solid #ddd;   /* optional light border */
-  border-radius: 5px;        /* optional rounded corners */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* subtle shadow */
+/* ====== Resume Page ====== */
+.resume-container {
+  max-width: 900px;
+  margin: 40px auto 60px auto;
+  padding: 0 20px;
+  line-height: 1.5;
+  position: relative; /* needed for absolute download icon */
 }
 
-/* Responsive spacing for mobile */
+/* Top-right download icon */
+.resume-download-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.resume-download-top a {
+  font-size: 1.8rem;
+  color: #0077cc;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.resume-download-top a:hover {
+  color: #005fa3;
+  transform: scale(1.2);
+}
+
+/* Resume title */
+.resume-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Resume image */
+.resume-image {
+  text-align: center;
+}
+
+.resume-image img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ====== Responsive ====== */
 @media (max-width: 768px) {
   .resume-container {
     margin: 30px 15px 40px 15px;
   }
 
-  .resume-image img {
-    max-width: 100%;
+  .resume-download-top a {
+    font-size: 1.5rem;
   }
-}
-.resume-image {
-  text-align: center; /* center content inside container */
-  margin-bottom: 20px; /* space below image */
-}
 
-.resume-image img {
-  display: inline-block; /* treat image as inline-block so text-align works */
-  max-width: 100%;       /* scale image for smaller screens */
-  height: auto;          /* keep aspect ratio */
-  border: 1px solid #ddd; /* optional border */
-  border-radius: 5px;    /* optional rounded corners */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* subtle shadow */
-}
-
-
-/* Center the download button */
-.resume-download {
-  text-align: center;  /* center the link inside the container */
-  margin-top: 20px;    /* space above button */
-}
-
-.resume-download a {
-  display: inline-block;  /* required for text-align to work */
-  padding: 10px 15px;
-  background-color: #0077cc;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background 0.2s ease, transform 0.2s ease;
-}
-
-.resume-download a:hover {
-  background-color: #005fa3;
-  transform: scale(1.05);
-}
-/* Top-right download icon on resume page */
-.resume-download-top {
-  position: absolute;
-  top: 20px;       /* distance from top of page */
-  right: 20px;     /* distance from right edge */
-}
-
-.resume-download-top a {
-  font-size: 1.8rem;        /* icon size */
-  color: #0077cc;           /* icon color */
-  transition: color 0.2s ease, transform 0.2s ease;
-}
-
-.resume-download-top a:hover {
-  color: #005fa3;            /* hover color */
-  transform: scale(1.2);     /* subtle enlarge on hover */
-}
-
-/* Make sure the resume container has relative positioning for absolute child */
-.resume-container {
-  position: relative;
+  .resume-title {
+    font-size: 2rem;
+  }
 }

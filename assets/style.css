@@ -403,3 +403,43 @@ body.dark .site-footer {
     font-size: 1.8rem;
   }
 }
+
+
+
+.resume-download-top a {
+  position: relative;
+  display: inline-block;
+}
+
+/* Default icon visible, hover icon hidden */
+.resume-download-top .hover-icon {
+  display: none;
+}
+
+/* Swap icons on hover */
+.resume-download-top a:hover .default-icon {
+  display: none;
+}
+
+.resume-download-top a:hover .hover-icon {
+  display: inline-block;
+}
+
+/* Size and color for both icons */
+.resume-download-top i {
+  font-size: 2rem;
+  color: #0077cc;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.resume-download-top a:hover i {
+  color: #005fa3;
+  transform: scale(1.25);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .resume-download-top i {
+    font-size: 1.8rem;
+  }
+}

@@ -10,12 +10,12 @@ permalink: /
     <div class="hero-text">
       <h1>Henry Marsom</h1>
       <p class="subtitle">
-        Engineering Student • Developer • Problem Solver
+        Mechanical Engineer • Developer • Problem Solver
       </p>
 
       <p class="bio">
-        I am an engineering student with a strong interest in software development,
-        applied mathematics, and building clean, reliable systems. I enjoy working
+        Hi! I am a first-year at the University of California at Berkeley majoring in mechanical engineering 
+        with a minor in electrical engineering and computer science (EECS). I enjoy working
         on technically challenging projects and continuously improving my skills.
       </p>
     </div>

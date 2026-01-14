@@ -26,11 +26,11 @@ permalink: /
   </section>
 
   <section class="contact">
-  <a href="mailto:youremail@example.com" aria-label="Email">
+  <a href="mailto:charleshenrymarsom@gmail.com" aria-label="Email">
     <i class="fa-solid fa-envelope"></i>
   </a>
 
-  <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank" aria-label="LinkedIn">
+  <a href="https://www.linkedin.com/in/henry-marsom-238a72380/" target="_blank" aria-label="LinkedIn">
     <i class="fa-brands fa-linkedin"></i>
   </a>
 

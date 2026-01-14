@@ -167,22 +167,29 @@ html, body {
 }
 
 /* Contact icons */
-.contact a {
-  font-size: 4.1rem;             /* icon size */
-  color: inherit;                /* inherit current text color */
-  transition: transform 0.2s ease, color 0.2s ease; /* animate both size and color */
+/* Contact icons - light mode */
+body.light .contact a {
+  font-size: 2.3rem;
+  color: #ffffff;  /* white icons in light mode */
+  transition: transform 0.2s ease, color 0.2s ease;
 }
 
-.contact a:hover {
-  transform: scale(1.15);        /* slightly enlarge on hover */
-  color: #4da3ff;                /* light mode hover color */
+body.light .contact a:hover {
+  transform: scale(1.15);
+  color: #0077cc;  /* blue on hover */
 }
 
-/* Dark mode hover */
+/* Contact icons - dark mode */
+body.dark .contact a {
+  font-size: 2.3rem;
+  color: #eaeaea;  /* default light gray in dark mode */
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
 body.dark .contact a:hover {
-  color: #4da3ff;               /* dark mode hover color */
+  transform: scale(1.15);
+  color: #4da3ff;  /* bright blue on hover in dark mode */
 }
-
 /* =========================
    FOOTER
 ========================= */

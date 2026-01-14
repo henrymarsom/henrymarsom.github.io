@@ -8,7 +8,7 @@ permalink: /
 
   <section class="hero">
     <div class="hero-text">
-      <h1>Charles Marsom</h1>
+      <h1>Henry Marsom</h1>
       <p class="subtitle">
         Engineering Student • Developer • Problem Solver
       </p>

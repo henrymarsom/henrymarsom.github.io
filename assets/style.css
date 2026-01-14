@@ -1,1 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #222;
+  background: #fafafa;
+}
 
+.home-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.bio {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.hero-image {
+  flex: 1;
+  min-width: 260px;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ddd;
+}
+
+.contact {
+  margin-top: 80px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: 500;
+}

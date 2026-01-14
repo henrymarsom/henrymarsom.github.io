@@ -26,9 +26,17 @@ permalink: /
   </section>
 
   <section class="contact">
-    <a href="mailto:charleshenrymarsom@gmail.com">Email</a>
-    <a href="https://www.linkedin.com/in/henry-marsom-238a72380/" target="_blank">LinkedIn</a>
-    <a href="https://github.com/henrymarsom" target="_blank">GitHub</a>
+  <a href="mailto:youremail@example.com" aria-label="Email">
+    <i class="fa-solid fa-envelope"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank" aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
+
+  <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+    <i class="fa-brands fa-github"></i>
+  </a>
   </section>
 
 </div>

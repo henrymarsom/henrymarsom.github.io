@@ -74,3 +74,11 @@ body {
 .contact a:hover {
   color: #0066cc;
 }
+.site-footer {
+  margin-top: 120px;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  border-top: 1px solid #e0e0e0;
+}

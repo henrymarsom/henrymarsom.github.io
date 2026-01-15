@@ -610,7 +610,7 @@ body.dark-mode .site-footer {
 
 
 
-
+<!--
 /* Default: hide both until mode is known */
 #theme-toggle .icon-sun,
 #theme-toggle .icon-moon {
@@ -626,3 +626,4 @@ body.light #theme-toggle .icon-moon {
 body.dark #theme-toggle .icon-sun {
   display: inline;
 }
+-->

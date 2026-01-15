@@ -16,7 +16,7 @@ body {
 /* Make main content stretch to push footer to bottom */
 .page-content {
   flex: 1;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 /* =========================

@@ -1,15 +1,14 @@
 ---
 layout: default
-title: FRC
+title: First Robotics Competition (FRC) Projects
 permalink: /projects/FRC/
 ---
 
 <section class="project-detail">
 
-  <h1 class="project-detail-title">Load-Bearing Bracket Design</h1>
+  <h1 class="project-detail-title">First Robotics Competition (FRC) Projects</h1>
   <p class="project-detail-subtitle">
-    Structural analysis and optimization of a mechanically loaded component using
-    finite element methods.
+    A collection of the designs and subsystems that I led during my time on an FRC team
   </p>
 
   <!-- Section 1 -->

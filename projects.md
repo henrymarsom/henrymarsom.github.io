@@ -16,7 +16,7 @@ permalink: /projects/
   <div class="projects-grid">
 
     <!-- Project 1 -->
-    <a href="{{ site.baseurl }}/projects/load-bearing-bracket/" class="project-link">
+    <a href="{{ site.baseurl }}/projects/FRC/" class="project-link">
       <div class="project-card">
         <img src="{{ site.baseurl }}/assets/project1.png" alt="Load-bearing bracket CAD model">
 

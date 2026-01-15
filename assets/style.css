@@ -629,3 +629,16 @@ body.dark #theme-toggle .icon-sun {
   display: inline;
 }
 -->
+
+/* Make entire card clickable without link styling */
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* Preserve hover effect */
+.project-link:hover .project-card {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}

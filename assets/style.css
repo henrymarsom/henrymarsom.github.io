@@ -1,479 +1,159 @@
-/* =========================
-   GENERAL PAGE LAYOUT
-========================= */
+
+/* ===============================
+   GLOBAL RESET & BASE STYLES
+================================ */
+
+* {
+  box-sizing: border-box;
+}
+
 html, body {
-  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  color: #222;
-  background: #fafafa;
-  display: flex;
-  flex-direction: column;
+  padding: 0;
+  min-height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* Make main content stretch to push footer to bottom */
-.page-content {
-  flex: 1;
-  min-height: calc(100vh - 120px);
+body {
+  background-color: #ffffff;
+  color: #111;
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
 
-/* =========================
-   HEADER / NAVIGATION
-========================= */
+/* ===============================
+   DARK MODE
+================================ */
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* ===============================
+   HEADER & NAVIGATION
+================================ */
+
 .site-header {
-  border-bottom: 1px solid #e5e5e5;
-  background: inherit;
-}
-
-.nav {
-  max-width: 1100px;
-  margin: auto;
-  padding: 15px 30px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-
-/* Left: Site Name */
-.site-name {
-  font-size: 1.4rem;
-  font-weight: 600;
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Center: Nav Links */
-.nav-center {
-  display: flex;
-  gap: 40px;
-}
-
-.nav-center a {
-  font-size: 1.05rem;
-  font-weight: 500;
-  text-decoration: none;
-  color: inherit;
-  position: relative;
-}
-
-.nav-center a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 0;
-  height: 2px;
-  background: currentColor;
-  transition: width 0.25s ease;
-}
-
-.nav-center a:hover::after {
-  width: 100%;
-}
-
-/* Right: Theme Toggle */
-.nav-right {
-  display: flex;
-  align-items: center;
-}
-
-#theme-toggle {
-  font-size: 1.3rem;
-  padding: 8px;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  background: none;
-  color: inherit;
-  transition: background 0.2s ease;
-}
-
-#theme-toggle:hover {
-  background: rgba(0, 0, 0, 0.05);
-}
-
-/* =========================
-   HOME CONTAINER
-========================= */
-.home-container {
-  padding: 10px 20px;       /* minimal top/bottom padding */
-  max-width: 2100px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* =========================
-   HERO SECTION
-========================= */
-.hero {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;  /* align text and image to top */
   justify-content: center;
-  gap: 30px;               /* smaller gap between text and image */
-  margin-bottom: 20px;      /* minimal space below hero section */
+  position: relative;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e0e0e0;
 }
 
-.hero-text {
+body.dark-mode .site-header {
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Dark mode toggle (top-right) */
+.dark-mode-toggle {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+/* ===============================
+   MAIN CONTENT
+================================ */
+
+.page-content {
+  padding: 20px;
+  padding-bottom: 60px; /* room for fixed footer */
+}
+
+/* ===============================
+   HOME PAGE
+================================ */
+
+.home-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.home-hero {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.home-text {
   flex: 1;
-  min-width: 280px;
-  max-width: 600px;
 }
 
-.hero-text h1 {
-  font-size: 3.5rem;
+.home-text h1 {
+  font-size: 3rem;
   margin-bottom: 10px;
 }
 
-.subtitle {
-  font-size: 1.2rem;
-  color: #555;
-  margin-bottom: 15px;
-}
-
-.bio {
+.home-text p {
   font-size: 1.05rem;
-  line-height: 1.4;
-  margin-bottom: 10px;       /* less spacing for compact look */
+  line-height: 1.6;
 }
 
-/* =========================
-   HERO IMAGE
-========================= */
-.hero-image {
+.home-image {
   flex: 1;
-  min-width: 220px;
-  text-align: center;
-}
-
-.hero-image img {
-  width: 250px;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #ddd;
-}
-
-/* =========================
-   CONTACT ICONS
-========================= */
-.contact {
-  margin-top: 0;          /* remove space above icons */
-  margin-bottom: 0;       /* remove space below icons */
   display: flex;
-  gap: 35px;
   justify-content: center;
 }
 
-/* Contact icons */
-/* Contact icons - light mode */
-body.light .contact a {
-  font-size: 3.5rem;
-  color: #000000;  /* black icons in light mode */
+.home-image img {
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+/* Social icons */
+.social-icons {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  font-size: 1.8rem;
+  color: #000;
   transition: transform 0.2s ease, color 0.2s ease;
 }
 
-body.light .contact a:hover {
-  transform: scale(1.15);
-  color: #0077cc;  /* blue on hover */
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #0077cc;
 }
 
-/* Contact icons - dark mode */
-body.dark .contact a {
-  font-size: 3.5rem;
-  color: #eaeaea;  /* default light gray in dark mode */
-  transition: transform 0.2s ease, color 0.2s ease;
+body.dark-mode .social-icons a {
+  color: #e0e0e0;
 }
 
-body.dark .contact a:hover {
-  transform: scale(1.15);
-  color: #4da3ff;  /* bright blue on hover in dark mode */
-}
-/* =========================
-   FOOTER
-========================= */
-.site-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-
-  text-align: center;
-  padding: 12px 0;
-  font-size: 0.9rem;
-
-  background-color: #f5f5f5;
-  color: #444;
-  border-top: 1px solid #ddd;
-
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-body.dark-mode .site-footer {
-  background-color: #181818;
-  color: #ccc;
-  border-top: 1px solid #2a2a2a;
-}
-
-/* =========================
-   DARK MODE
-========================= */
-body.light {
-  background: #fafafa;
-  color: #222;
-}
-
-body.dark {
-  background: #121212;
-  color: #eaeaea;
-}
-
-body.dark .site-header {
-  border-bottom: 1px solid #333;
-}
-
-body.dark .contact a {
-  color: #eaeaea;
-}
-
-body.dark .contact a:hover {
+body.dark-mode .social-icons a:hover {
   color: #4da3ff;
 }
 
-body.dark #theme-toggle:hover {
-  background: rgba(255, 255, 255, 0.08);
-}
-
-body.dark .site-footer {
-  border-top: 1px solid #333;
-  color: #aaa;
-}
-
-/* ====== Responsive Mobile Layout ====== */
-@media (max-width: 768px) {
-  .hero {
-    flex-direction: column;     /* stack vertically */
-    align-items: center;        /* center everything */
-    gap: 20px;                  /* less space between text and image */
-    margin-bottom: 15px;
-  }
-
-  .hero-text {
-    text-align: center;         /* center text on small screens */
-    max-width: 90%;             /* narrow so it looks good on phones */
-  }
-
-  .hero-image {
-    margin-top: 0;              /* remove any nudging */
-  }
-
-  .hero-image img {
-    width: 180px;               /* slightly smaller image on phone */
-    height: 180px;
-  }
-
-  .contact {
-    gap: 25px;                  /* smaller gaps between icons */
-  }
-
-  .nav {
-    flex-wrap: wrap;             /* allow nav links to wrap if needed */
-    justify-content: center;
-  }
-
-  .nav-center {
-    gap: 25px;                   /* tighter nav links on mobile */
-    margin-top: 10px;
-  }
-}
-@media (max-width: 768px) {
-  .hero {
-    flex-direction: column !important;  /* stack vertically */
-    align-items: center !important;     /* center everything */
-    gap: 20px !important;               /* smaller space */
-    margin-bottom: 15px !important;
-  }
-
-  .hero-text {
-    text-align: center !important;      /* center text */
-    max-width: 90% !important;
-  }
-
-  .hero-image {
-    margin-top: 0 !important;
-  }
-
-  .hero-image img {
-    width: 180px !important;
-    height: 180px !important;
-  }
-
-  .contact {
-    gap: 25px !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
-  }
-
-    /* Stack nav items vertically if needed, but keep toggle separate */
-  .nav {
-    display: flex;
-    justify-content: space-between; /* left + right ends */
-    align-items: center;
-    flex-wrap: wrap;               /* allow links to wrap */
-    padding: 10px 20px;
-  }
-
-  /* Center the nav links horizontally */
-  .nav-center {
-    order: 2;                     /* move below site name if needed */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    margin: 10px 0;               /* spacing above/below links */
-  }
-
-  /* Keep the theme toggle on the right */
-  .nav-right {
-    order: 1;                     /* stays at top right */
-    margin-left: auto;
-  }
-}
-  .hero-text h1 {
-    font-size: 2.5rem !important;
-  }
-
-  .subtitle {
-    font-size: 1rem !important;
-  }
-
-  .bio {
-    font-size: 1rem !important;
-  }
-}
-
-/* ====== Resume Page ====== */
-.resume-container {
-  display: flex;
-  justify-content: center; /* centers inner container on page */
-  padding: 20px;
-}
-
-.resume-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;      /* center image and header */
-}
-
-/* Resume image */
-.resume-image {
-  width: 100%;
-}
-
-.resume-img {
-  margin: 0 auto;
-  display: block;
-  width: 700px;              /* fixed image width */
-  max-width: 100%;           /* scales on mobile */
-  height: auto;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  margin-bottom: 10px;
-}
-
-/* Header with title and download icon */
-.resume-header {
-  display: flex;
-  justify-content: space-between; /* left title, right icon */
-  align-items: center;
-  width: 700px;                   /* same width as image */
-  margin-bottom: 20px;
-}
-
-/* Resume title */
-.resume-title {
-  font-size: 2.5rem;
-  margin: 0;
-}
-
-/* Download icon */
-.resume-download-top {
-  position: relative;
-  display: inline-block;
-}
-
-.resume-download-top .hover-icon {
-  display: none;
-}
-
-.resume-download-top a:hover .default-icon {
-  display: none;
-}
-
-.resume-download-top a:hover .hover-icon {
-  display: inline-block;
-}
-
-.resume-download-top i {
-  font-size: 3.5rem;
-  color: #0077cc;
-  transition: color 0.2s ease, transform 0.2s ease;
-}
-
-.resume-download-top i:hover {
-  color: #005fa3;
-  transform: scale(1.25);
-}
-
-/* ====== Responsive ====== */
-@media (max-width: 768px) {
-  .resume-img {
-    width: 90%;               /* shrink for mobile */
-  }
-
-  .resume-header {
-    flex-direction: column;
-    width: 90%;               /* match image width */
-    align-items: center;
-    gap: 10px;
-  }
-
-  .resume-title {
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .resume-download-top i {
-    font-size: 1.8rem;
-  }
-}
-/* Dark mode resume image fix */
-body.dark-mode .resume-img {
-  background-color: #ffffff;
-  padding: 10px;
-  border-radius: 6px;
-
-  border: none;
-  box-shadow: 0 6px 14px rgba(0,0,0,0.6);
-}
-.resume-img {
-  background-color: #fafafa;
-  padding: 8px;
-}
-
-
-
-.page-content {
-  padding-bottom: 20px; /* must be >= footer height */
-}
+/* ===============================
+   PROJECTS PAGE
+================================ */
 
 .projects-container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 40px 20px 80px;
 }
 
 .projects-title {
@@ -483,19 +163,20 @@ body.dark-mode .resume-img {
 
 .projects-intro {
   max-width: 700px;
-  font-size: 1.1rem;
   margin-bottom: 40px;
   color: #555;
 }
 
-/* Grid layout */
+body.dark-mode .projects-intro {
+  color: #ccc;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
 }
 
-/* Project card */
 .project-card {
   background-color: #ffffff;
   border-radius: 8px;
@@ -511,89 +192,132 @@ body.dark-mode .resume-img {
 
 .project-card img {
   width: 100%;
-  height: auto;
   display: block;
 }
 
-/* Card content */
 .project-content {
   padding: 20px;
 }
 
-.project-content h3 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 1.4rem;
-}
-
-.project-content p {
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-/* Tools line */
 .project-tools {
+  margin-top: 15px;
   font-size: 0.85rem;
   font-weight: 600;
-  margin-top: 15px;
   color: #0077cc;
-}
-
-/* Links */
-.project-links {
-  margin-top: 15px;
-}
-
-.project-links a {
-  text-decoration: none;
-  font-weight: 600;
-  margin-right: 15px;
-  color: #0077cc;
-}
-
-.project-links a:hover {
-  text-decoration: underline;
-}
-
-/* ===== Dark Mode ===== */
-
-body.dark-mode .projects-intro {
-  color: #ccc;
 }
 
 body.dark-mode .project-card {
   background-color: #1e1e1e;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.6);
 }
 
-body.dark-mode .project-tools,
-body.dark-mode .project-links a {
+body.dark-mode .project-tools {
   color: #4da3ff;
 }
 
-/* ===== Footer (Light Mode) ===== */
+/* ===============================
+   RESUME PAGE
+================================ */
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+}
+
+.resume-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header aligned to image width */
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  margin-bottom: 10px;
+}
+
+.resume-title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* Download icon */
+.resume-download-top i {
+  font-size: 2.4rem;
+  color: #0077cc;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.resume-download-top i:hover {
+  transform: scale(1.25);
+  color: #005fa3;
+}
+
+/* Resume image */
+.resume-img {
+  display: block;
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #fafafa;
+  padding: 8px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+body.dark-mode .resume-img {
+  background-color: #ffffff;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.6);
+}
+
+/* ===============================
+   FIXED FOOTER
+================================ */
+
 .site-footer {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-
   background-color: #f5f5f5;
   color: #444;
-
   text-align: center;
-  padding: 6px 0;          /* thinner footer */
-  font-size: 0.85rem;      /* smaller text */
-
+  padding: 6px 0;
+  font-size: 0.85rem;
   border-top: 1px solid #ddd;
   z-index: 1000;
-
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
 
-/* ===== Footer (Dark Mode) ===== */
 body.dark-mode .site-footer {
   background-color: #181818;
-  color: #cccccc;
+  color: #ccc;
   border-top: 1px solid #2a2a2a;
+}
+
+/* ===============================
+   MOBILE RESPONSIVENESS
+================================ */
+
+@media (max-width: 768px) {
+  .home-hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .resume-header {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .resume-img {
+    width: 90%;
+  }
 }

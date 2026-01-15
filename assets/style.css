@@ -597,3 +597,32 @@ body.dark-mode .site-footer {
   color: #cccccc;
   border-top: 1px solid #2a2a2a;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Default: hide both until mode is known */
+#theme-toggle .icon-sun,
+#theme-toggle .icon-moon {
+  display: none;
+}
+
+/* Light mode → show moon (to switch to dark) */
+body.light #theme-toggle .icon-moon {
+  display: inline;
+}
+
+/* Dark mode → show sun (to switch to light) */
+body.dark #theme-toggle .icon-sun {
+  display: inline;
+}

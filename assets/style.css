@@ -463,3 +463,6 @@ body.dark-mode .resume-img {
   background-color: #fafafa;
   padding: 8px;
 }
+.page-content {
+  padding-bottom: 60px; /* must be >= footer height */
+}

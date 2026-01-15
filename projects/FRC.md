@@ -3,95 +3,77 @@ layout: default
 title: FRC
 permalink: /projects/FRC/
 ---
-/* ===== Project Detail Page ===== */
 
-.project-detail {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 40px 20px 80px;
-}
+<section class="project-detail">
 
-.project-detail-title {
-  font-size: 3rem;
-  margin-bottom: 5px;
-}
+  <h1 class="project-detail-title">Load-Bearing Bracket Design</h1>
+  <p class="project-detail-subtitle">
+    Structural analysis and optimization of a mechanically loaded component using
+    finite element methods.
+  </p>
 
-.project-detail-subtitle {
-  font-size: 1.15rem;
-  color: #555;
-  max-width: 800px;
-  margin-bottom: 50px;
-}
+  <!-- Section 1 -->
+  <div class="project-detail-row">
+    <div class="project-detail-image">
+      <img src="{{ site.baseurl }}/assets/project1_overview.png" alt="Bracket CAD model">
+    </div>
 
-/* Row layout */
-.project-detail-row {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-}
+    <div class="project-detail-text">
+      <h2>Project Overview</h2>
+      <p>
+        This project focused on the design and validation of a load-bearing bracket
+        subjected to static loading conditions. The objective was to minimize material
+        usage while maintaining structural integrity and an adequate safety factor.
+      </p>
+      <p>
+        A parametric CAD model was created to allow rapid iteration and evaluation of
+        multiple geometries.
+      </p>
+    </div>
+  </div>
 
-/* Image */
-.project-detail-image {
-  flex: 1;
-}
+  <hr class="project-divider">
 
-.project-detail-image img {
-  width: 100%;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-}
+  <!-- Section 2 -->
+  <div class="project-detail-row">
+    <div class="project-detail-image">
+      <img src="{{ site.baseurl }}/assets/project1_fea.png" alt="Finite element stress plot">
+    </div>
 
-/* Text */
-.project-detail-text {
-  flex: 1;
-}
+    <div class="project-detail-text">
+      <h2>Finite Element Analysis</h2>
+      <p>
+        Finite element analysis (FEA) was conducted to evaluate stress concentrations
+        and deformation under worst-case loading scenarios. Boundary conditions and
+        material properties were selected to closely represent real-world use.
+      </p>
+      <p>
+        Results were assessed using von Mises stress criteria and compared against
+        allowable material limits to ensure a safety factor greater than 2.
+      </p>
+    </div>
+  </div>
 
-.project-detail-text h2 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-}
+  <hr class="project-divider">
 
-.project-detail-text p {
-  font-size: 1.05rem;
-  line-height: 1.6;
-  margin-bottom: 10px;
-}
+  <!-- Section 3 -->
+  <div class="project-detail-row">
+    <div class="project-detail-image">
+      <img src="{{ site.baseurl }}/assets/project1_optimized.png" alt="Optimized bracket design">
+    </div>
 
-/* Divider */
-.project-divider {
-  margin: 60px 0;
-  border: none;
-  border-top: 1px solid #ddd;
-}
+    <div class="project-detail-text">
+      <h2>Optimization & Results</h2>
+      <p>
+        Based on analysis results, geometry refinements were implemented to reduce mass
+        while preserving structural performance. Fillet radii and thickness
+        distributions were adjusted to mitigate peak stresses.
+      </p>
+      <p>
+        The final design achieved a material reduction of approximately 18% while
+        maintaining all structural requirements.
+      </p>
+    </div>
+  </div>
 
-/* ===== Dark Mode ===== */
-
-body.dark .project-detail-subtitle {
-  color: #ccc;
-}
-
-body.dark .project-divider {
-  border-top: 1px solid #333;
-}
-
-body.dark .project-detail-image img {
-  border: none;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.6);
-}
-
-/* ===== Mobile ===== */
-
-@media (max-width: 768px) {
-  .project-detail-row {
-    flex-direction: column;
-  }
-
-  .project-detail-title {
-    font-size: 2.2rem;
-  }
-
-  .project-detail-text h2 {
-    font-size: 1.5rem;
-  }
-}
+</section>

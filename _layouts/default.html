@@ -2,42 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="/assets/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/theme.js"></script>
 </head>
-<body class="light">
 
-  <!-- Header / Navigation -->
+<body>
   <header class="site-header">
     <nav class="nav">
+      <div class="nav-left">
+        <a href="/" class="site-name">Charles Marsom</a>
+      </div>
+
       <div class="nav-center">
         <a href="/">Home</a>
-        <a href="/projects/">Projects</a>
-        <a href="/resume/">Resume</a>
+        <a href="/projects">Projects</a>
+        <a href="/resume">Resume</a>
       </div>
 
       <div class="nav-right">
-        <button id="theme-toggle" aria-label="Toggle dark mode">
-          <i class="fa-solid fa-moon"></i>
-        </button>
+        <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
       </div>
     </nav>
   </header>
 
-  <!-- Main Page Content -->
   <main class="page-content">
     {{ content }}
   </main>
 
-  <!-- Footer -->
   <footer class="site-footer">
-    <p>© 2026 Henry Marsom. All rights reserved.</p>
+    © {{ "now" | date: "%Y" }} Charles Marsom
   </footer>
-
-  <!-- Theme Script -->
-  <script src="/assets/theme.js"></script>
-
 </body>
 </html>

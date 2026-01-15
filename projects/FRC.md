@@ -1,6 +1,6 @@
 ---
 layout: default
 title: FRC
-permalink: /FRC/
+permalink: /projects/FRC/
 ---
 #FRC

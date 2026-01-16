@@ -43,7 +43,7 @@ permalink: /projects/
         <div class="project-content">
           <h3>Space Technologies at Cal (STAC) Quantum CubeSAT</h3>
           <p>
-            Mechanical team member of the Quantum CubeSAT team. Led many testing and wiring projects as well as the supervision of assembly. CLICK to see a collection of my most notable contributions.
+            Led many testing projects as mechanical team member. Supervised assembly processes. CLICK to see a collection of my most notable contributions.
           </p>
 
           <p class="project-tools">

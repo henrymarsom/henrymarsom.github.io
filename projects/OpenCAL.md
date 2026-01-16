@@ -14,7 +14,7 @@ permalink: /projects/OpenCAL/
   <!-- Section 1 -->
   <div class="project-detail-row">
     <div class="project-detail-image">
-      <img src="{{ site.baseurl }}/assets/2025 FRC.png" alt="CAD">
+      <img src="{{ site.baseurl }}/assets/OpenCAL1.png" alt="CAD">
     </div>
 
     <div class="project-detail-text">
@@ -36,7 +36,7 @@ permalink: /projects/OpenCAL/
   <!-- Section 2 -->
   <div class="project-detail-row">
     <div class="project-detail-image">
-      <img src="{{ site.baseurl }}/assets/2024 FRC.png" alt="Assembly">
+      <img src="{{ site.baseurl }}/assets/OpenCAL2.png" alt="Assembly">
     </div>
 
     <div class="project-detail-text">
@@ -58,7 +58,7 @@ permalink: /projects/OpenCAL/
   <!-- Section 3 -->
   <div class="project-detail-row">
     <div class="project-detail-image">
-      <img src="{{ site.baseurl }}/assets/2023o FRC.png" alt="Prototyping">
+      <img src="{{ site.baseurl }}/assets/OpenCAL3.png" alt="Prototyping">
     </div>
 
     <div class="project-detail-text">

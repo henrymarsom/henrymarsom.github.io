@@ -61,7 +61,7 @@ permalink: /projects/FRC/
         The intake on our 2023 offseason robot, this mechanism rotated using a live axle powered by dual gear trains each connected to motors. It intook the "cube" game piece with sets of 2" compliance wheels, and was capable of launching the game piece as well.
       </p>
       <p>
-        
+       
       </p>
     </div>
   </div>

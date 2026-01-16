@@ -1,7 +1,7 @@
 ---
 layout: default
-title: signal-processing
-permalink: /projects/signal-processing/
+title: OpenCAL
+permalink: /projects/OpenCAL/
 ---
 
 #About me

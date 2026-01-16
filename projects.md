@@ -33,7 +33,7 @@ permalink: /projects/
     </a>
 
     <!-- Project 2 -->
-    <a href="{{ site.baseurl }}/projects/line-following-robot/" class="project-link">
+    <a href="{{ site.baseurl }}/projects/Space Technologies at Cal/" class="project-link">
       <div class="project-card">
         <img src="{{ site.baseurl }}/assets/project2.jpg" alt="STAC">
 

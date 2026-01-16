@@ -20,13 +20,10 @@ permalink: /projects/FRC/
     <div class="project-detail-text">
       <h2>End Effector</h2>
       <p>
-        This project focused on the design and validation of a load-bearing bracket
-        subjected to static loading conditions. The objective was to minimize material
-        usage while maintaining structural integrity and an adequate safety factor.
+        The end effector on our 2025 competition robot, this mechanism was designed to effectively score both "algae" and "coral" game pieces. It rotated around a dead axle using max composite plate material in order to create a flexible and stress resistant scoring mechanism. 
       </p>
       <p>
-        A parametric CAD model was created to allow rapid iteration and evaluation of
-        multiple geometries.
+        The end effector went through 10+ iterations and involved many different prototypes and approaches.
       </p>
     </div>
   </div>
@@ -42,13 +39,10 @@ permalink: /projects/FRC/
     <div class="project-detail-text">
       <h2>Game Piece Shooter</h2>
       <p>
-        Finite element analysis (FEA) was conducted to evaluate stress concentrations
-        and deformation under worst-case loading scenarios. Boundary conditions and
-        material properties were selected to closely represent real-world use.
+        The shooter on our 2024 competition robot, this mechanism used 4" compliance wheels to launch and spin the "note" game piece. It acted on a dead axle, rotating to launch the game piece at different angles.
       </p>
       <p>
-        Results were assessed using von Mises stress criteria and compared against
-        allowable material limits to ensure a safety factor greater than 2.
+        The shooter went through many different iterations, moving from conical wheels to one-sided wheels. It also changed from a herringbone gear setup to a rack and pinion-like system.
       </p>
     </div>
   </div>

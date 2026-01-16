@@ -17,15 +17,12 @@ permalink: /projects/
     <!-- Project 1 -->
     <a href="{{ site.baseurl }}/projects/signal-processing/" class="project-link">
       <div class="project-card">
-        <img src="{{ site.baseurl }}/assets/project1.jpg" alt="Load-bearing bracket CAD model">
+        <img src="{{ site.baseurl }}/assets/project1.jpg" alt="Open CAL">
 
         <div class="project-content">
-          <h3>Load-Bearing Bracket Design</h3>
+          <h3>Computed Axial Lithography (CAL) Lab</h3>
           <p>
-            Designed and analyzed a structural bracket subjected to static loading
-            conditions. Finite element analysis was used to evaluate stress
-            distribution and deformation, leading to geometry optimization while
-            maintaining a safety factor greater than 2.
+            On OpenCal team, working to make CAL open source. Focused on vial design and rotation mechanism. CLICK to see a collection of my most notable contributions.
           </p>
 
           <p class="project-tools">

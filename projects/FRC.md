@@ -8,17 +8,17 @@ permalink: /projects/FRC/
 
   <h1 class="project-detail-title">First Robotics Competition (FRC) Projects</h1>
   <p class="project-detail-subtitle">
-    A collection of the designs and subsystems that I led during my time on an FRC team
+    A collection of the designs and subsystems that I led during my time on my FRC team
   </p>
 
   <!-- Section 1 -->
   <div class="project-detail-row">
     <div class="project-detail-image">
-      <img src="{{ site.baseurl }}/assets/project1_overview.png" alt="Bracket CAD model">
+      <img src="{{ site.baseurl }}/assets/2025 FRC.png" alt="End Effector">
     </div>
 
     <div class="project-detail-text">
-      <h2>Project Overview</h2>
+      <h2>End Effector</h2>
       <p>
         This project focused on the design and validation of a load-bearing bracket
         subjected to static loading conditions. The objective was to minimize material
@@ -36,11 +36,11 @@ permalink: /projects/FRC/
   <!-- Section 2 -->
   <div class="project-detail-row">
     <div class="project-detail-image">
-      <img src="{{ site.baseurl }}/assets/project1_fea.png" alt="Finite element stress plot">
+      <img src="{{ site.baseurl }}/assets/2024 FRC.png" alt="Game Piece Shooter">
     </div>
 
     <div class="project-detail-text">
-      <h2>Finite Element Analysis</h2>
+      <h2>Game Piece Shooter</h2>
       <p>
         Finite element analysis (FEA) was conducted to evaluate stress concentrations
         and deformation under worst-case loading scenarios. Boundary conditions and
@@ -58,7 +58,7 @@ permalink: /projects/FRC/
   <!-- Section 3 -->
   <div class="project-detail-row">
     <div class="project-detail-image">
-      <img src="{{ site.baseurl }}/assets/project1_optimized.png" alt="Optimized bracket design">
+      <img src="{{ site.baseurl }}/assets/2023o FRC.png" alt="Optimized bracket design">
     </div>
 
     <div class="project-detail-text">

@@ -9,7 +9,7 @@ permalink: /projects/
   <h1 class="projects-title">Projects</h1>
 
   <p class="projects-intro">
-    A growing collection of my engineering and technical projects demonstrating design and analysis across mechanical systems. Click to read more.
+    A growing collection of my engineering and technical projects demonstrating design and analysis across mechanical systems. <strong>Click to read more.</strong>
   </p>
 
   <div class="projects-grid">

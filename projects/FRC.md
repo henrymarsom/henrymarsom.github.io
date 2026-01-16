@@ -58,13 +58,10 @@ permalink: /projects/FRC/
     <div class="project-detail-text">
       <h2>Intake</h2>
       <p>
-        Based on analysis results, geometry refinements were implemented to reduce mass
-        while preserving structural performance. Fillet radii and thickness
-        distributions were adjusted to mitigate peak stresses.
+        The intake on our 2023 offseason robot, this mechanism rotated using a live axle powered by dual gear trains each connected to motors. It intook the "cube" game piece with sets of 2" compliance wheels, and was capable of launching the game piece as well.
       </p>
       <p>
-        The final design achieved a material reduction of approximately 18% while
-        maintaining all structural requirements.
+        
       </p>
     </div>
   </div>

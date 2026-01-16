@@ -17,7 +17,7 @@ permalink: /projects/
     <!-- Project 1 -->
     <a href="{{ site.baseurl }}/projects/signal-processing/" class="project-link">
       <div class="project-card">
-        <img src="{{ site.baseurl }}/assets/project1.jpeg" alt="Open CAL">
+        <img src="{{ site.baseurl }}/assets/project1.png" alt="Open CAL">
 
         <div class="project-content">
           <h3>Computed Axial Lithography (CAL) Lab</h3>

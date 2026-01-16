@@ -22,7 +22,7 @@ permalink: /projects/
         <div class="project-content">
           <h3>Computed Axial Lithography (CAL) Lab</h3>
           <p>
-            On OpenCal team, working to make CAL open source. Focusing on vial design and rotation mechanism. CLICK to see a collection of my most notable contributions.
+            Working to make CAL open source on OpenCAL. Focusing on vial design and rotation mechanism. CLICK to see a collection of my most notable contributions.
           </p>
 
           <p class="project-tools">

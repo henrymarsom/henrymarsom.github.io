@@ -1,7 +1,7 @@
 ---
 layout: default
-title: line-following-robot
-permalink: /projects/line-following-robot/
+title: STAC
+permalink: /projects/STAC/
 ---
 
 

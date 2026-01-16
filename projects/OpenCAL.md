@@ -40,13 +40,10 @@ permalink: /projects/OpenCAL/
     <div class="project-detail-text">
       <h2>Assembly</h2>
       <p>
-        Finite element analysis (FEA) was conducted to evaluate stress concentrations
-        and deformation under worst-case loading scenarios. Boundary conditions and
-        material properties were selected to closely represent real-world use.
+        While assembling the current model, I helped to reflect on the problems with wobble that existed in V1. Although V2 has not yet been finalized in assembly form, I helped to produce a prototype version of the design, with the changes that we implemented in the CAD. 
       </p>
       <p>
-        Results were assessed using von Mises stress criteria and compared against
-        allowable material limits to ensure a safety factor greater than 2.
+        
       </p>
     </div>
   </div>
@@ -62,13 +59,10 @@ permalink: /projects/OpenCAL/
     <div class="project-detail-text">
       <h2>Prototyping</h2>
       <p>
-        Based on analysis results, geometry refinements were implemented to reduce mass
-        while preserving structural performance. Fillet radii and thickness
-        distributions were adjusted to mitigate peak stresses.
+        While improving the rotation mechanism and vial subassembly, I contribute to many different prototype efforts. Our group discussed many different variations that seeked to eliminate the wobble, ultimately landing on something simple, yet effective, using bearings to allow the vial to rotate while constraining planar motion.
       </p>
       <p>
-        The final design achieved a material reduction of approximately 18% while
-        maintaining all structural requirements.
+        The final design achieved a greater reduction in wobble, a smoother interface with the motor plate, and a simpler way to insert the vial.
       </p>
     </div>
   </div>

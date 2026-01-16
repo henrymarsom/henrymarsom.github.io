@@ -17,7 +17,7 @@ permalink: /projects/
     <!-- Project 1 -->
     <a href="{{ site.baseurl }}/projects/signal-processing/" class="project-link">
       <div class="project-card">
-        <img src="{{ site.baseurl }}/assets/project1.png" alt="Load-bearing bracket CAD model">
+        <img src="{{ site.baseurl }}/assets/project1.jpg" alt="Load-bearing bracket CAD model">
 
         <div class="project-content">
           <h3>Load-Bearing Bracket Design</h3>

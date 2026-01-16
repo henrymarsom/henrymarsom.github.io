@@ -20,9 +20,7 @@ permalink: /projects/OpenCAL/
     <div class="project-detail-text">
       <h2>CAD</h2>
       <p>
-        This project focused on the design and validation of a load-bearing bracket
-        subjected to static loading conditions. The objective was to minimize material
-        usage while maintaining structural integrity and an adequate safety factor.
+        I have contributed to and continue to contribute to the vial design and rotation mechanism CAD. As we moved into V2 of the OpenCAL design, I worked with other students to make the rotation mechanism simpler and less prone to error. I helped to eliminate wobble of the system that existed in V1 and designed an effective top plate for the motor mount.
       </p>
       <p>
         A parametric CAD model was created to allow rapid iteration and evaluation of

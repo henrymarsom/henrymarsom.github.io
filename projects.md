@@ -43,13 +43,11 @@ permalink: /projects/
         <div class="project-content">
           <h3>Space Technologies at Cal (STAC) Quantum CubeSAT</h3>
           <p>
-            Developed an autonomous mobile robot using sensor feedback and closed-loop
-            control. Firmware was written in C++ to process real-time sensor data and
-            dynamically adjust motor speed for stable navigation.
+            Mechanical team member of the Quantum CubeSAT team. Led many testing and wiring projects as well as the supervision of assembly. CLICK to see a collection of my most notable contributions.
           </p>
 
           <p class="project-tools">
-            C++ · Embedded Systems · Control Systems
+            CAD · System Testing · Wiring
           </p>
         </div>
       </div>

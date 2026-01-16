@@ -9,7 +9,7 @@ permalink: /projects/STAC/
 
   <h1 class="project-detail-title">Space Technologies at Cal (STAC)</h1>
   <p class="project-detail-subtitle">
-    A growing collection of projects that I have led as a mechanical member of the Quantum CubeSAT Team
+    A growing collection of projects that I have contributed to while on the Quantum CubeSAT Team
   </p>
 
   <!-- Section 1 -->

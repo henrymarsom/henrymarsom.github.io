@@ -22,7 +22,7 @@ permalink: /projects/
         <div class="project-content">
           <h3>Computed Axial Lithography (CAL) Lab</h3>
           <p>
-            On OpenCal team, working to make CAL open source. Focused on vial design and rotation mechanism. CLICK to see a collection of my most notable contributions.
+            On OpenCal team, working to make CAL open source. Focusing on vial design and rotation mechanism. CLICK to see a collection of my most notable contributions.
           </p>
 
           <p class="project-tools">
@@ -40,7 +40,7 @@ permalink: /projects/
         <div class="project-content">
           <h3>Space Technologies at Cal (STAC) Quantum CubeSAT</h3>
           <p>
-            Led many testing projects as mechanical team member. Supervised assembly processes. CLICK to see a collection of my most notable contributions.
+            Leading many testing projects as mechanical team member. Supervising assembly processes. CLICK to see a collection of my most notable contributions.
           </p>
 
           <p class="project-tools">

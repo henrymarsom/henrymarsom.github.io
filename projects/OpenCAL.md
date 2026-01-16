@@ -59,7 +59,7 @@ permalink: /projects/OpenCAL/
     <div class="project-detail-text">
       <h2>Prototyping</h2>
       <p>
-        While improving the rotation mechanism and vial subassembly, I contribute to many different prototype efforts. Our group discussed many different variations that seeked to eliminate the wobble, ultimately landing on something simple, yet effective, using bearings to allow the vial to rotate while constraining planar motion.
+        While improving the rotation mechanism and vial subassembly, I contributed to many different prototyping efforts. Our group discussed many different variations that seeked to eliminate the wobble, ultimately landing on something simple, yet effective, using bearings to allow the vial to rotate while constraining planar motion.
       </p>
       <p>
         The final design achieved a greater reduction in wobble, a smoother interface with the motor plate, and a simpler way to insert the vial.

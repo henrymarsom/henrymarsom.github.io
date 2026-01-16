@@ -14,11 +14,11 @@ permalink: /projects/OpenCAL/
   <!-- Section 1 -->
   <div class="project-detail-row">
     <div class="project-detail-image">
-      <img src="{{ site.baseurl }}/assets/2025 FRC.png" alt="End Effector">
+      <img src="{{ site.baseurl }}/assets/2025 FRC.png" alt="CAD">
     </div>
 
     <div class="project-detail-text">
-      <h2>End Effector</h2>
+      <h2>CAD</h2>
       <p>
         This project focused on the design and validation of a load-bearing bracket
         subjected to static loading conditions. The objective was to minimize material
@@ -36,11 +36,11 @@ permalink: /projects/OpenCAL/
   <!-- Section 2 -->
   <div class="project-detail-row">
     <div class="project-detail-image">
-      <img src="{{ site.baseurl }}/assets/2024 FRC.png" alt="Game Piece Shooter">
+      <img src="{{ site.baseurl }}/assets/2024 FRC.png" alt="Assembly">
     </div>
 
     <div class="project-detail-text">
-      <h2>Game Piece Shooter</h2>
+      <h2>Assembly</h2>
       <p>
         Finite element analysis (FEA) was conducted to evaluate stress concentrations
         and deformation under worst-case loading scenarios. Boundary conditions and
@@ -58,11 +58,11 @@ permalink: /projects/OpenCAL/
   <!-- Section 3 -->
   <div class="project-detail-row">
     <div class="project-detail-image">
-      <img src="{{ site.baseurl }}/assets/2023o FRC.png" alt="Intake">
+      <img src="{{ site.baseurl }}/assets/2023o FRC.png" alt="Prototyping">
     </div>
 
     <div class="project-detail-text">
-      <h2>Intake</h2>
+      <h2>Prototyping</h2>
       <p>
         Based on analysis results, geometry refinements were implemented to reduce mass
         while preserving structural performance. Fillet radii and thickness

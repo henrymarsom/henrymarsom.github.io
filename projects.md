@@ -63,7 +63,7 @@ permalink: /projects/
         <div class="project-content">
           <h3>First Robotics Competition (FRC) Projects</h3>
           <p>
-            Served as subsystem lead for many projects as a member of the 1678 Citrus Circuits robotics team. CLICK to see a collection of my most notable designs.
+            Served as subsystem lead for many mechanisms as a member of the 1678 Citrus Circuits robotics team. CLICK to see a collection of my most notable projects.
           </p>
 
           <p class="project-tools">

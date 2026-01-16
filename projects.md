@@ -15,7 +15,7 @@ permalink: /projects/
   <div class="projects-grid">
 
     <!-- Project 1 -->
-    <a href="{{ site.baseurl }}/projects/FRC/" class="project-link">
+    <a href="{{ site.baseurl }}/projects/signal-processing/" class="project-link">
       <div class="project-card">
         <img src="{{ site.baseurl }}/assets/project1.png" alt="Load-bearing bracket CAD model">
 
@@ -56,7 +56,7 @@ permalink: /projects/
     </a>
 
     <!-- Project 3 -->
-    <a href="{{ site.baseurl }}/projects/signal-processing/" class="project-link">
+    <a href="{{ site.baseurl }}/projects/FRC/" class="project-link">
       <div class="project-card">
         <img src="{{ site.baseurl }}/assets/project3.png" alt="Signal processing plots">
 

@@ -58,7 +58,7 @@ permalink: /projects/
     <!-- Project 3 -->
     <a href="{{ site.baseurl }}/projects/FRC/" class="project-link">
       <div class="project-card">
-        <img src="{{ site.baseurl }}/assets/project3.png" alt="FRC">
+        <img src="{{ site.baseurl }}/assets/project3.jpeg" alt="FRC">
 
         <div class="project-content">
           <h3>First Robotics Competition (FRC) Projects</h3>

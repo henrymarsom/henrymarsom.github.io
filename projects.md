@@ -65,7 +65,7 @@ permalink: /projects/
           </p>
 
           <p class="project-tools">
-            CAD · Python · Signal Processing
+            CAD · Prototyping · Manufacturing
           </p>
         </div>
       </div>

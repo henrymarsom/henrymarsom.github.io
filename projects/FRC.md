@@ -58,11 +58,11 @@ permalink: /projects/FRC/
   <!-- Section 3 -->
   <div class="project-detail-row">
     <div class="project-detail-image">
-      <img src="{{ site.baseurl }}/assets/2023o FRC.png" alt="Optimized bracket design">
+      <img src="{{ site.baseurl }}/assets/2023o FRC.png" alt="Intake">
     </div>
 
     <div class="project-detail-text">
-      <h2>Optimization & Results</h2>
+      <h2>Intake</h2>
       <p>
         Based on analysis results, geometry refinements were implemented to reduce mass
         while preserving structural performance. Fillet radii and thickness

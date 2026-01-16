@@ -38,10 +38,10 @@ permalink: /projects/
     <!-- Project 2 -->
     <a href="{{ site.baseurl }}/projects/line-following-robot/" class="project-link">
       <div class="project-card">
-        <img src="{{ site.baseurl }}/assets/project2.png" alt="Autonomous robot prototype">
+        <img src="{{ site.baseurl }}/assets/project2.jpg" alt="STAC">
 
         <div class="project-content">
-          <h3>Autonomous Line-Following Robot</h3>
+          <h3>Space Technologies at Cal (STAC) Quantum CubeSAT</h3>
           <p>
             Developed an autonomous mobile robot using sensor feedback and closed-loop
             control. Firmware was written in C++ to process real-time sensor data and

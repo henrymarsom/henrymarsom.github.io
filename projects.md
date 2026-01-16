@@ -58,18 +58,16 @@ permalink: /projects/
     <!-- Project 3 -->
     <a href="{{ site.baseurl }}/projects/FRC/" class="project-link">
       <div class="project-card">
-        <img src="{{ site.baseurl }}/assets/project3.png" alt="Signal processing plots">
+        <img src="{{ site.baseurl }}/assets/project3.png" alt="FRC">
 
         <div class="project-content">
-          <h3>Signal Processing of Noisy Sensor Data</h3>
+          <h3>First Robotics Competition (FRC) Projects</h3>
           <p>
-            Implemented digital filtering techniques to reduce noise in experimental
-            sensor data. Compared multiple filtering approaches and evaluated
-            performance using frequency-domain analysis.
+            Served as subsystem lead for many projects as a member of the 1678 Citrus Circuits robotics team. CLICK to see a collection of my most notable designs.
           </p>
 
           <p class="project-tools">
-            MATLAB · Python · Signal Processing
+            CAD · Python · Signal Processing
           </p>
         </div>
       </div>

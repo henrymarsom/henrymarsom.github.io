@@ -8,7 +8,7 @@ permalink: /projects/FRC/
 
   <h1 class="project-detail-title">First Robotics Competition (FRC) Projects</h1>
   <p class="project-detail-subtitle">
-    A collection of the designs and subsystems that I led during my time on my FRC team
+    A collection of the designs and subsystems that I led during my time on 1678 Citrus Circuits
   </p>
 
   <!-- Section 1 -->

@@ -26,7 +26,7 @@ permalink: /projects/
           </p>
 
           <p class="project-tools">
-            SolidWorks · FEA · Mechanical Design
+            CAD · 3D Printing · Mechanical Design
           </p>
         </div>
       </div>

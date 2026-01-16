@@ -15,7 +15,7 @@ permalink: /projects/
   <div class="projects-grid">
 
     <!-- Project 1 -->
-    <a href="{{ site.baseurl }}/projects/signal-processing/" class="project-link">
+    <a href="{{ site.baseurl }}/projects/OpenCAL/" class="project-link">
       <div class="project-card">
         <img src="{{ site.baseurl }}/assets/project1.png" alt="Open CAL">
 

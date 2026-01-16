@@ -7,9 +7,9 @@ permalink: /projects/line-following-robot/
 
 <section class="project-detail">
 
-  <h1 class="project-detail-title">Space Technologies at Cal Quantum CubeSAT</h1>
+  <h1 class="project-detail-title">Space Technologies at Cal (STAC)</h1>
   <p class="project-detail-subtitle">
-    A growing collection of projects that I have led as a mechanical member of the Quantum CubeSAT Team
+    A growing collection of projects that I have led as a mechanical member of the QubeSAT Team
   </p>
 
   <!-- Section 1 -->

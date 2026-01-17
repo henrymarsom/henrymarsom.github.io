@@ -767,7 +767,7 @@ body.dark .project-detail-image img {
 
 
 
-.project-detail-image img {
+.projects-grid {
   width: 100%;
   border-radius: 8px;
   border: 1.5px solid #000;   /* black border in light mode */
@@ -775,7 +775,7 @@ body.dark .project-detail-image img {
 }
 
 /* Project detail images – dark mode */
-body.dark .project-detail-image img {
+body.dark .projects-grid {
   border: 1.5px solid #ffffff; /* white border in dark mode */
   box-shadow: 0 6px 16px rgba(0,0,0,0.6);
 }

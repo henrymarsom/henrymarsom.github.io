@@ -779,3 +779,32 @@ body.dark .projects-grid {
   border: 1.5px solid #ffffff; /* white border in dark mode */
   box-shadow: 0 6px 16px rgba(0,0,0,0.6);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.project-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+
+  border: 1.5px solid #000;   /* black border in light mode */
+
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+body.dark .project-card {
+  background-color: #1e1e1e;
+  border: 1.5px solid #ffffff;  /* white border in dark mode */
+  box-shadow: 0 6px 16px rgba(0,0,0,0.6);
+}

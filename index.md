@@ -35,7 +35,7 @@ permalink: /
     <i class="fa-brands fa-linkedin"></i>
   </a>
 
-  <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/henrymarsom" target="_blank" aria-label="GitHub">
     <i class="fa-brands fa-github"></i>
   </a>
   </section>

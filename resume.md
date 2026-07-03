@@ -12,14 +12,14 @@ permalink: /resume/
     <!-- Header aligned to image width -->
     <div class="resume-header">
       <h1 class="resume-title">Resume</h1>
-      <a class="resume-download-top" href="{{ site.baseurl }}/assets/Resumé copy.png" target="_blank" aria-label="Download Resume">
+      <a class="resume-download-top" href="{{ site.baseurl }}/assets/resum.png" target="_blank" aria-label="Download Resume">
         <i class="fa-solid fa-file-arrow-down default-icon"></i>
         <i class="fa-solid fa-circle-arrow-down hover-icon"></i>
       </a>
     </div>
 <!-- Resume Image -->
     <section class="resume-image">
-      <img src="{{ site.baseurl }}/assets/Resumé copy.png" alt="Resume of Henry Marsom" class="resume-img">
+      <img src="{{ site.baseurl }}/assets/resum.png" alt="Resume of Henry Marsom" class="resume-img">
     </section>
   </div>
 
